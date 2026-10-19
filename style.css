@@ -1,61 +1,17 @@
-Style.css
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    background-color: #f0f8ff;
+body{
+	font-family:Arial, sans-serif;
+	margin: 20px;
 }
-h1 {
-    color: navy;
-    text-align: center;
-    text-decoration: underline;
+h2{
+	color: navy;
 }
-form {
-    width: 500px;
-    margin: auto;
-    border: 10px solid #333;
-    padding: 30px;
-    background-color: yellow;
-    border-radius: 40px;
+form{
+	width: 400px;
+	padding: 20px;
+	border: 1px solid black;
 }
-label {
-    font-weight: bold;
-    color: #333;
-}
-input
-select,
-textarea {
-    margin-left: 30px;
-    padding: 10px;
-    border: 10 px solid gray;
-    border-radius: 10px;
-}
-input [type="submit"] {
-    background-color: green;
-    color: white;
-    border: none;
-    padding: 12px 20px;
-    cursor: pointer;
-}
-input[type="submit"]:hover {
-    background-color: darkgreen;
-}
-
-input[type="submit"]:active {
-    background-color: #003300;
-}
-input [type="reset"] {
-    background-color: red;
-    color: white;
-    border: none;
-    padding: 8px, 15px;
-    cursor: pointer;
-}
-
-input[type="reset"]:hover {
-    background-color: darkred;
-}
-
-input[type="reset"]:active {
-    background-color: #660000;
+#output{
+	margin-top 20px;
+	padding:15px;
+	border: 1px solid gray;
 }
